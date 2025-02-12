@@ -13,7 +13,7 @@ namespace Esercizio_L3_W1_BU1.Models
             Random randomNum = new Random();
             for (int i = 0; i < dimensione; i++)
             {
-                numeri[i] = randomNum.Next(1, 101); // Genera numeri casuali tra 1 e 100
+                numeri[i] = randomNum.Next(1, 101);
                 Console.WriteLine($"Numero generato: {numeri[i]}");
             }
 
